@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    color: white;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+}
+
+.logo {
+    font-size: 26px;
+    color: orange;
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.search-box input {
+    padding: 6px;
+}
+
+.search-box button {
+    background: orange;
+    border: none;
+    padding: 7px 12px;
+}
+
+/* HERO SECTION */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+}
+
+.hero-text {
+    max-width: 500px;
+}
+
+.hero-text h1 {
+    font-size: 50px;
+}
+
+.hero-text span {
+    color: orange;
+}
+
+.hero-text p {
+    margin-top: 20px;
+    line-height: 1.6;
+}
+
+.join-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: orange;
+    border: none;
+    font-weight: bold;
+}
+
+/* LOGIN BOX */
+.login-box {
+    background: black;
+    padding: 30px;
+    border-radius: 10px;
+    width: 280px;
+}
+
+.login-box h2 {
+    background: white;
+    color: orange;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.login-box input {
+    width: 100%;
+    margin-top: 15px;
+    padding: 8px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid orange;
+    color: white;
+}
+
+.login-btn {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    background: orange;
+    border: none;
+}
+
+.login-box p {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.login-box a {
+    color: orange;
+    text-decoration: none;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.icons span {
+    margin: 0 6px;
+    background: white;
+    color: black;
+    padding: 5px 8px;
+    border-radius: 50%;
+}

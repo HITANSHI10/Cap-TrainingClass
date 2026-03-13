@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Application Form</title>
+    <style>
+        body {
+            font-family: Arial;
+        }
+
+        .form-box {
+            width: 400px;
+            border: 2px solid black;
+            padding: 15px;
+            margin: 50px auto;
+        }
+
+        .title {
+            text-align: center;
+            color: red;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        label {
+            display: inline-block;
+            width: 100px;
+            margin-top: 10px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 200px;
+            padding: 4px;
+        }
+
+        textarea {
+            height: 60px;
+            resize: none;
+        }
+
+        .submit-btn {
+            float: right;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="form-box">
+
+    <div class="title">User Application Form</div>
+
+    <form>
+
+        <label>First Name</label>
+        <input type="text"><br>
+
+        <label>Last Name</label>
+        <input type="text"><br>
+
+        <label>Gender</label>
+        <input type="radio" name="g"> Male
+        <input type="radio" name="g"> Female<br>
+
+        <label>Address</label>
+        <textarea></textarea><br>
+
+        <label>Email Id</label>
+        <input type="email"><br>
+
+        <input class="submit-btn" type="submit" value="Submit">
+
+    </form>
+
+</div>
+
+</body>
+</html>

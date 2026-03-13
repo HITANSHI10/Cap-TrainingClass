@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Update Information</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: #eee;
+        }
+
+        .box {
+            width: 420px;
+            background: white;
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin: 60px auto;
+        }
+
+        h2 {
+            margin: 0;
+        }
+
+        p {
+            font-size: 14px;
+            margin-top: 5px;
+        }
+
+        label {
+            display: inline-block;
+            width: 140px;
+            margin-top: 8px;
+        }
+
+        input, select {
+            margin-top: 8px;
+        }
+
+        .btn {
+            margin-top: 12px;
+            float: right;
+        }
+    </style>
+</head>
+<body>
+
+<div class="box">
+
+    <h2>Update Information</h2>
+    <p>Use the form below to edit your information.</p>
+
+    <form>
+
+        <label>First name:</label>
+        <input type="text" value="Bruce"><br>
+
+        <label>Last name:</label>
+        <input type="text" value="Phillips"><br>
+
+        <label>Favorite sport:</label>
+        <select>
+            <option>basketball</option>
+            <option>football</option>
+            <option>cricket</option>
+        </select><br>
+
+        <label>Gender:</label>
+        <input type="radio" name="g"> male
+        <input type="radio" name="g"> female
+        <input type="radio" name="g" checked> not sure<br>
+
+        <label>State resident:</label>
+        <select>
+            <option>Kansas</option>
+            <option>Texas</option>
+            <option>California</option>
+        </select><br>
+
+        <label></label>
+        <input type="checkbox" checked> 21 or older<br>
+
+        <label>Car models owned:</label>
+        <input type="checkbox" checked> Ford
+        <input type="checkbox"> Chrysler
+        <input type="checkbox"> Toyota
+        <input type="checkbox" checked> Nissan<br>
+
+        <input class="btn" type="submit" value="Save Changes">
+
+    </form>
+
+</div>
+
+</body>
+</html>

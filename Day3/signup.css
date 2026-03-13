@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    background: linear-gradient(to right, darkblue, lightblue);
+}
+
+form{
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    width:300px;
+    margin:auto;
+    margin-top: 100px;
+}
+
+
+label{
+    font-size: 14px;
+    color:rgb(10, 149, 204);
+}
+
+button:hover{
+    background:#0088cc;
+}
