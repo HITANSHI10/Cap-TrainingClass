@@ -1,0 +1,41 @@
+{
+  "info": {
+    "_postman_id": "d031efea-71db-4d0e-8b77-11d4dafd9d7b",
+    "name": "Day26",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "53447795"
+  },
+  "item": [
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"email\": \"john_doe@gmail.com\",\r\n  \"password\": \"12345678\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://www.shoppersstack.com/shopping/shoppers/login",
+          "protocol": "https",
+          "host": [
+            "www",
+            "shoppersstack",
+            "com"
+          ],
+          "path": [
+            "shopping",
+            "shoppers",
+            "login"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
